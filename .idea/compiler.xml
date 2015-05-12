@@ -26,5 +26,8 @@
         <module name="akka-http-prototype" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="akka-http-prototype" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
