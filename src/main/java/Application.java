@@ -22,5 +22,4 @@ public class Application {
         HttpService.bindRoute("localhost", port, myCustomRoute, actorSystem);
         System.out.println("Server started on port " + port + "...");
     }
-
 }
