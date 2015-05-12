@@ -19,7 +19,7 @@ public class Application {
 
         Route helloWorldDirective = Directives.complete("hello world from the complete directive");
 
-        HttpService.bindRoute("localhost", port, helloWorldDirective,actorSystem);
+        HttpService.bindRoute("localhost", port, myCustomRoute, actorSystem);
         System.out.println("Server started on port " + port + "...");
     }
 
