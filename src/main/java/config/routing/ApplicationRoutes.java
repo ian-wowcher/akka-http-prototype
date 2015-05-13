@@ -1,3 +1,5 @@
+package config.routing;
+
 public enum ApplicationRoutes {
 
     HELLO_WORLD("/hello");

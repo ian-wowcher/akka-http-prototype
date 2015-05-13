@@ -14,10 +14,23 @@
             <artifactId>akka-http-java-experimental_2.11</artifactId>
             <version>1.0-RC2</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.typesafe.akka</groupId>-->
-            <!--<artifactId>akka-actor_2.10</artifactId>-->
-            <!--<version>2.3.10</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.jdbi</groupId>
+            <artifactId>jdbi</artifactId>
+            <version>2.62</version>
+        </dependency>
+        <dependency>
+            <groupId>oracle.com</groupId>
+            <artifactId>ojdbc14</artifactId>
+            <version>10G</version>
+        </dependency>
+
+
+        <!--temp dependencies-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.5.3</version>
+        </dependency>
     </dependencies>
 </project>
